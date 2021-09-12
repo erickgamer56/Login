@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: arial;
+}
+body{
+    background-color: black;
+}
+#login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background-color: black;
+    margin: 0 20px;
+}
+#escreva{
+    color: white;
+    margin-top: 16px;
+    text-align: center;
+}
+.inp{
+    width: 450px;
+    height: 45px;
+    outline: none;
+    border-bottom: 1px solid cyan;
+    border-top: none ;
+    border-left: none;
+    border-right: none;
+    margin-bottom: 12px;
+    color: white;
+    background-color: rgba(245, 222, 179, 0);
+}
+.btn{
+    border: 1px solid cyan;
+}
+.la{
+    color: white;
+    cursor: pointer;
+    position: relative;
+}
+.n1{
+    transition: all .6s ease;
+}
+.la1{
+    top:-45px;
+    left: 0px;
+    transition: all .6s ease;
+}
+.n1:focus ~ .la1{
+    top: -73px;
+}
+.n2:focus ~ .la2{
+    top: -73px;
+}
+.la2{
+    top:-45px;
+    left: 0px;
+    transition: all .6s ease;
+}
+.fle{
+    display: flex;
+    flex-direction: column;
+}
+@media (max-width:463px){
+    .inp,.fle{
+        width: 100%;
+    }
+    #escreva{
+        font-size: 20px;
+    }
+}
