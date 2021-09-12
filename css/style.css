@@ -41,12 +41,12 @@ body{
     position: relative;
 }
 .n1{
-    transition: all .6s ease;
+    transition: all .3s ease;
 }
 .la1{
     top:-45px;
     left: 0px;
-    transition: all .6s ease;
+    transition: all .3s ease;
 }
 .n1:focus ~ .la1{
     top: -73px;
@@ -57,7 +57,7 @@ body{
 .la2{
     top:-45px;
     left: 0px;
-    transition: all .6s ease;
+    transition: all .3s ease;
 }
 .fle{
     display: flex;
